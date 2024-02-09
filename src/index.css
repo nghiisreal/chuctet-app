@@ -8,11 +8,16 @@ const messages = [
 
  * {
   box-sizing: border-box;
+ 
 }
 
 body {
   font-family: sans-serif;
   color: #333;
+  background-image: url("./2024.jpeg");
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .steps {
@@ -21,11 +26,13 @@ body {
   border-radius: 7px;
   padding: 25px 100px;
   margin: 100px auto;
+  text-align: center;
 }
 
 .numbers {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .numbers > div {
@@ -49,7 +56,6 @@ body {
   font-size: 20px;
   margin: 40px 0;
   font-weight: bold;
-
   display: flex;
   flex-direction: column;
   align-items: center;
