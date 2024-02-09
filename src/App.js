@@ -91,13 +91,13 @@ export default function App() {
           onClick={handlePrevious}
           // onMouseEnter={() => alert("TEST")}
         >
-          Chuyển về
+          {"<"}
         </button>
         <button
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
           onClick={handleNext}
         >
-          Chuyển qua
+          {">"}
         </button>
       </div>
     </div>
