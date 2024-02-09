@@ -82,7 +82,7 @@ export default function App() {
       </p>
       <img
         src={pics[pic]}
-        style={{ maxWidth: "270px", textAlign: "center", marginBottom: "20px" }}
+        style={{ maxWidth: "70%", textAlign: "center", marginBottom: "20px" }}
         alt="hinh"
       />
       <div className="buttons">
